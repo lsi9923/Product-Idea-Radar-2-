@@ -1,0 +1,3647 @@
+{
+  "provenance": {
+    "captured_public_only": true,
+    "redaction": "Removed resolver redirect chains, sensitive-keyed fields, and signed media query strings; retained captured source URLs, raw purchase URLs, final URLs, schema/resolver fields.",
+    "row_count": 30,
+    "selection": "21 public Threads rows (including moel.pick DarhfjSE24O), 4 Product Hunt rows, 5 Kickstarter rows",
+    "source_artifact": "dist/runs/exe_live_acceptance_final/verified.json"
+  },
+  "rows": [
+    {
+      "category": "general",
+      "duplicate_key": "다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본",
+      "is_product_idea": true,
+      "item": {
+        "author": "tkasiddl_99",
+        "fetched_at": "2026-07-13T13:39:55+00:00",
+        "id": "threads:d7689eb2eeab509f:purchase:0:7a993fe42e47",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744922868_2052543242013755_1508473901873033429_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745557071_18110402530847831_2613315515993470391_n.jpg"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 177.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T12:56:43+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9501583940?itemId=28307013284&vendorItemId=95259785721",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 177.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau94RPgexu",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:3234f3d932ec9f62",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744922868_2052543242013755_1508473901873033429_n.jpg",
+          "product_name": "다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방…",
+          "product_tags": [],
+          "provenance": {
+            "author": "tkasiddl_99",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@tkasiddl_99/post/Dau95JUgT97",
+            "reply_post_id": "3940358931850805115",
+            "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau94RPgexu",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 177.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9501583940?itemId=28307013284&vendorItemId=95259785721",
+              "id": "threads_purchase:3234f3d932ec9f62",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "tkasiddl_99",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@tkasiddl_99/post/Dau95JUgT97",
+                "public_only": true,
+                "reply_post_id": "3940358931850805115",
+                "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau94RPgexu",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fkHrvcjIgm",
+              "raw_value": "https://link.coupang.com/a/fkHrvcjIgm",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9501583940?itemId=28307013284&vendorItemId=95259785721",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9501583940?itemId=28307013284&vendorItemId=95259785721"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9501583940?itemId=28307013284&vendorItemId=95259785721",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dau94RPgexu"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHrvcjIgm https://link.coupang.com/a/fkHrvcjIgm https://link.coupang.com/a/fkHrvcjIgm [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHrvcjIgm https://link.coupang.com/a/fkHrvcjIgm https://link.coupang.com/a/fkHrvcjIgm",
+        "title": "다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방…",
+        "url": "https://www.threads.net/@tkasiddl_99/post/Dau94RPgexu"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방… — 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되고 짱쉬움 이방법으로 후드 끈묶었더니 조녜 ㄷㄷ 다들 리본 이방법으로 묶어봐 양옆 대칭되",
+      "total_score": 2.16,
+      "virality_score": 3.24
+    },
+    {
+      "category": "general",
+      "duplicate_key": "휴대용 믹서기 텀블러 미니 무선 전동 과일 야채 착즙기 소형 믹서기 블렌더 쿠팡 이거",
+      "is_product_idea": true,
+      "item": {
+        "author": "nostalsokei",
+        "fetched_at": "2026-07-13T13:39:55+00:00",
+        "id": "threads:b6d2a5ec3c9c47af:purchase:0:a8d3e2df8ef0",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743563712_3440595896108594_5280762042225794633_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745236138_17948433201217854_3608112261012129544_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 4100.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T12:18:35+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/7764463679",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 4100.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@nostalsokei/post/Dau5g-1ky6i",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:d93369f601d62804",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743563712_3440595896108594_5280762042225794633_n.jpg",
+          "product_name": "휴대용 믹서기 텀블러 미니 무선 전동 과일 야채 착즙기 소형 - 믹서기/블렌더 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "nostalsokei",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@nostalsokei/post/Dau5lTxEyvf",
+            "reply_post_id": "3940339976491969503",
+            "root_post_url": "https://www.threads.net/@nostalsokei/post/Dau5g-1ky6i",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 4100.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/7764463679",
+              "id": "threads_purchase:d93369f601d62804",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "nostalsokei",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@nostalsokei/post/Dau5lTxEyvf",
+                "public_only": true,
+                "reply_post_id": "3940339976491969503",
+                "root_post_url": "https://www.threads.net/@nostalsokei/post/Dau5g-1ky6i",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flXVW1cIii",
+              "raw_value": "https://link.coupang.com/a/flXVW1cIii",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/7764463679",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/7764463679"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/7764463679",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dau5g-1ky6i"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 영상에 나온제품 궁금한사람들있어? 요거야 디자인도 이뻐!! https://link.coupang.com/a/flXVW1cIii 영상에 나온제품 궁금한사람들있어? 요거야 디자인도 이뻐!! https://link.coupang.com/a/flXVW1cIii",
+        "title": "휴대용 믹서기 텀블러 미니 무선 전동 과일 야채 착즙기 소형 - 믹서기/블렌더 | 쿠팡",
+        "url": "https://www.threads.net/@nostalsokei/post/Dau5g-1ky6i"
+      },
+      "market_score": 3.3,
+      "matched_terms": [
+        "꿀템",
+        "휴대용"
+      ],
+      "novelty_score": 4.15,
+      "reason": "physical/product signals: 꿀템, 휴대용; novelty terms: 휴대용; evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 휴대용 믹서기 텀블러 미니 무선 전동 과일 야채 착즙기 소형 - 믹서기/블렌더 | 쿠팡 — 이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 이거 진짜 개꿀템이야 텀블러인척하는 믹서기 미쳤음 ㅋㅋㅋㅋ 생과일주스 굳이 비싸게주고 안사먹어도돼 이거 진짜 개꿀템이",
+      "total_score": 3.48,
+      "virality_score": 4.66
+    },
+    {
+      "category": "general",
+      "duplicate_key": "여름은 이걸로 정했다 원래 컵에 관심 1도 없는데 이건 진짜 지나치겠더라 여름은 이걸로 정했다",
+      "is_product_idea": true,
+      "item": {
+        "author": "item_market.k",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:4abb6d713df8bb25:purchase:0:e44ab9aa020f",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/745235762_835051886212607_3785328671589708622_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743830954_18043040705612563_8885929281095721477_n.webp"
+        ],
+        "metrics": {
+          "likes": 4.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 2600.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T12:15:11+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9546050372?itemId=28479256575&vendorItemId=95429429278",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 4.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 2600.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@item_market.k/post/Dau5ICkH5pY",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:899d4a09ccb7b61a",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/745235762_835051886212607_3785328671589708622_n.jpg",
+          "product_name": "올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심…",
+          "product_tags": [],
+          "provenance": {
+            "author": "item_market.k",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@item_market.k/post/Dau5KyTHzc5",
+            "reply_post_id": "3940338153849567033",
+            "root_post_url": "https://www.threads.net/@item_market.k/post/Dau5ICkH5pY",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 4.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 2600.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9546050372?itemId=28479256575&vendorItemId=95429429278",
+              "id": "threads_purchase:899d4a09ccb7b61a",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "item_market.k",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@item_market.k/post/Dau5KyTHzc5",
+                "public_only": true,
+                "reply_post_id": "3940338153849567033",
+                "root_post_url": "https://www.threads.net/@item_market.k/post/Dau5ICkH5pY",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/eWj71a5qCG",
+              "raw_value": "https://link.coupang.com/a/eWj71a5qCG",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9546050372?itemId=28479256575&vendorItemId=95429429278",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9546050372?itemId=28479256575&vendorItemId=95429429278"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9546050372?itemId=28479256575&vendorItemId=95429429278",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dau5ICkH5pY"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 쿠팡파트너스 활동으로 수수료를 제공받습니다. (카페에서 이거쓰면 난리날 듯) https://link.coupang.com/a/eWj71a5qCG https://link.coupang.com/a/eWj71a5qCG https://link.coupang.com/a/eWj71a5qCG 쿠팡파트너스 활동으로 수수료를 제공받습니다. (카페에서 이거쓰면 난리날 듯) https://link.coupang.com/a/eWj71a5qCG https://link.coupang.com/a/eWj71a5qCG https://link.coupang.com/a/eWj71a5qCG",
+        "title": "올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심…",
+        "url": "https://www.threads.net/@item_market.k/post/Dau5ICkH5pY"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심… — 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍😍 나 원래 컵에 관심 1도 없는데 이건 진짜 못 지나치겠더라...🦭 올 여름은 이걸로 정했다😍",
+      "total_score": 2.38,
+      "virality_score": 4.46
+    },
+    {
+      "category": "general",
+      "duplicate_key": "온더바디 코튼풋 발을씻자 풋샴푸 레몬민트향 풋샴푸 쿠팡 이거 진짜 뭐하는템이야 화장실찌든때도 싹빠지고 세탁기 찌든때도",
+      "is_product_idea": true,
+      "item": {
+        "author": "nostalsokei",
+        "fetched_at": "2026-07-13T13:39:55+00:00",
+        "id": "threads:c43a51149084b022:purchase:0:2c330dad93f8",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746791399_1568103308279516_5009146867051883248_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/747948567_17948432505217854_1482354110321240619_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 484.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T12:12:46+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/116651697?itemId=19325071407",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 484.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@nostalsokei/post/Dau42Udk0E1",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:7af7636c965c78e9",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746791399_1568103308279516_5009146867051883248_n.jpg",
+          "product_name": "온더바디 코튼풋 발을씻자 풋샴푸 레몬민트향 - 풋샴푸 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "nostalsokei",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@nostalsokei/post/Dau48-Nk57S",
+            "reply_post_id": "3940337204568760018",
+            "root_post_url": "https://www.threads.net/@nostalsokei/post/Dau42Udk0E1",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 484.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/116651697?itemId=19325071407",
+              "id": "threads_purchase:7af7636c965c78e9",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "nostalsokei",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@nostalsokei/post/Dau48-Nk57S",
+                "public_only": true,
+                "reply_post_id": "3940337204568760018",
+                "root_post_url": "https://www.threads.net/@nostalsokei/post/Dau42Udk0E1",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flXz51zBM4",
+              "raw_value": "https://link.coupang.com/a/flXz51zBM4",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/116651697?itemId=19325071407",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/116651697?itemId=19325071407"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/116651697?itemId=19325071407",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dau42Udk0E1"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 요새 진짜 핫템이라서 사봤는데 리얼 만능이네 ㅋㅋㅋ https://link.coupang.com/a/flXz51zBM4 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\" 요새 진짜 핫템이라서 사봤는데 리얼 만능이네 ㅋㅋㅋ https://link.coupang.com/a/flXz51zBM4 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"",
+        "title": "온더바디 코튼풋 발을씻자 풋샴푸 레몬민트향 - 풋샴푸 | 쿠팡",
+        "url": "https://www.threads.net/@nostalsokei/post/Dau42Udk0E1"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 온더바디 코튼풋 발을씻자 풋샴푸 레몬민트향 - 풋샴푸 | 쿠팡 — 이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 이거 진짜 뭐하는템이야...? 화장실찌든때도 싹빠지고 세탁기 찌든때도 싹다 걍 없애버리네 발씻는거 맞긴하지 ",
+      "total_score": 2.23,
+      "virality_score": 3.62
+    },
+    {
+      "category": "general",
+      "duplicate_key": "이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 이거 알려준",
+      "is_product_idea": true,
+      "item": {
+        "author": "tkasiddl_99",
+        "fetched_at": "2026-07-13T13:39:56+00:00",
+        "id": "threads:cb71158b54315ecb:purchase:0:f880e24f6e51",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/734767989_2105128800888097_5087406956811635222_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/731886476_18110402134847831_8245329068337436626_n.webp"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 1.0,
+          "views": 1400.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T11:35:30+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/8250905624?itemId=23753623093&vendorItemId=90964657823",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 1400.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau0laNDLFX",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:f9d6ad9accc97c5c",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/734767989_2105128800888097_5087406956811635222_n.jpg",
+          "product_name": "와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로…",
+          "product_tags": [],
+          "provenance": {
+            "author": "tkasiddl_99",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@tkasiddl_99/post/Dau0mBUjOHL",
+            "reply_post_id": "3940318035172975051",
+            "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau0laNDLFX",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 1400.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/8250905624?itemId=23753623093&vendorItemId=90964657823",
+              "id": "threads_purchase:f9d6ad9accc97c5c",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "tkasiddl_99",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@tkasiddl_99/post/Dau0mBUjOHL",
+                "public_only": true,
+                "reply_post_id": "3940318035172975051",
+                "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Dau0laNDLFX",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fkHjY2Zsom",
+              "raw_value": "https://link.coupang.com/a/fkHjY2Zsom",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/8250905624?itemId=23753623093&vendorItemId=90964657823",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/8250905624?itemId=23753623093&vendorItemId=90964657823"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/8250905624?itemId=23753623093&vendorItemId=90964657823",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dau0laNDLFX"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHjY2Zsom https://link.coupang.com/a/fkHjY2Zsom https://link.coupang.com/a/fkHjY2Zsom [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHjY2Zsom https://link.coupang.com/a/fkHjY2Zsom https://link.coupang.com/a/fkHjY2Zsom",
+        "title": "와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로…",
+        "url": "https://www.threads.net/@tkasiddl_99/post/Dau0laNDLFX"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로… — 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준 쓰친이 절받아 ㄷㄷ 이거로 진짜 소량으로도 고루 발려서 샤넬바디크림 양이안준다 ;; 와 이거 알려준",
+      "total_score": 2.32,
+      "virality_score": 4.14
+    },
+    {
+      "category": "general",
+      "duplicate_key": "필터 먼지보고 경악했는데 더러운게 문제가 아님 오히려 열일한 증거였음 필터 먼지보고 경악했는데 더러운게 문제가",
+      "is_product_idea": true,
+      "item": {
+        "author": "item_market.k",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:2972a3862cd90971:purchase:0:e1d972781cb9",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/731673807_2048836169332052_2608780961186033834_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/742473375_18043033580612563_283986758698353065_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 3100.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T10:31:33+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/6536711440?itemId=14538472083",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 3100.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@item_market.k/post/DautRBnH2kB",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:adbd3172727d14ac",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/731673807_2048836169332052_2608780961186033834_n.jpg",
+          "product_name": "필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거…",
+          "product_tags": [],
+          "provenance": {
+            "author": "item_market.k",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@item_market.k/post/DautTw0n9_I",
+            "reply_post_id": "3940285994181320648",
+            "root_post_url": "https://www.threads.net/@item_market.k/post/DautRBnH2kB",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 3100.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/6536711440?itemId=14538472083",
+              "id": "threads_purchase:adbd3172727d14ac",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "item_market.k",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@item_market.k/post/DautTw0n9_I",
+                "public_only": true,
+                "reply_post_id": "3940285994181320648",
+                "root_post_url": "https://www.threads.net/@item_market.k/post/DautRBnH2kB",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fgWYaXPYXs",
+              "raw_value": "https://link.coupang.com/a/fgWYaXPYXs",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/6536711440?itemId=14538472083",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/6536711440?itemId=14538472083"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/6536711440?itemId=14538472083",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DautRBnH2kB"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 쿠팡파트너스 활동으로 수수료를 제공받습니다 역시 이거였네 https://link.coupang.com/a/fgWYaXPYXs https://link.coupang.com/a/fgWYaXPYXs 쿠팡파트너스 활동으로 수수료를 제공받습니다 역시 이거였네 https://link.coupang.com/a/fgWYaXPYXs https://link.coupang.com/a/fgWYaXPYXs",
+        "title": "필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거…",
+        "url": "https://www.threads.net/@item_market.k/post/DautRBnH2kB"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거… — 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증거였음🤣🤣 필터 먼지보고 경악했는데 더러운게 문제가 아님. 오히려 열일한 증",
+      "total_score": 2.39,
+      "virality_score": 4.52
+    },
+    {
+      "category": "general",
+      "duplicate_key": "소화가 잘되는 편안한 우유 190ml 12개 우유 쿠팡 홈카페 6년 차인데 진심 억울해서 네스프레소",
+      "is_product_idea": true,
+      "item": {
+        "author": "it_goodgiraffe",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:a68c7d3e4594f716:purchase:0:e5801c6465de",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743373754_17939078001293537_5060891190094985703_n.webp",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/747290092_17939077989293537_4110138516186517433_n.webp",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/747153730_17939077992293537_3275241917004398832_n.webp"
+        ],
+        "metrics": {
+          "likes": 5.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 4000.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T09:45:03+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/8314955548?itemId=24017153257",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 5.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 4000.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@it_goodgiraffe/post/Daun8dUE7Vz",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:679129bb62b8450c",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743373754_17939078001293537_5060891190094985703_n.webp",
+          "product_name": "소화가 잘되는 편안한 우유, 190ml, 12개 - 우유 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "it_goodgiraffe",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@it_goodgiraffe/post/Daun8TRkzRr",
+            "reply_post_id": "3940262391674254443",
+            "root_post_url": "https://www.threads.net/@it_goodgiraffe/post/Daun8dUE7Vz",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 5.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 4000.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/8314955548?itemId=24017153257",
+              "id": "threads_purchase:679129bb62b8450c",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "it_goodgiraffe",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@it_goodgiraffe/post/Daun8TRkzRr",
+                "public_only": true,
+                "reply_post_id": "3940262391674254443",
+                "root_post_url": "https://www.threads.net/@it_goodgiraffe/post/Daun8dUE7Vz",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flMKbpbrPg",
+              "raw_value": "https://link.coupang.com/a/flMKbpbrPg",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/8314955548?itemId=24017153257",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/8314955548?itemId=24017153257"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/8314955548?itemId=24017153257",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Daun8dUE7Vz"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "홈카페 6년 차인데 진심 억울해서 잠 안 옴,,,ㅠ 네스프레소 캡슐에 대충 이 우유만 섞으면 걍 청담동 카페 압살함... 그동안 밖에서 사 마신 라떼 값 다 환불받고 싶은 심정... 꼬소함 미쳤음ㅠㅜ 라떼 유목민들 제발 이거 한 번만 먹어봐,, 홈카페 6년 차인데 진심 억울해서 잠 안 옴,,,ㅠ 네스프레소 캡슐에 대충 이 우유만 섞으면 걍 청담동 카페 압살함... 그동안 밖에서 사 마신 라떼 값 다 환불받고 싶은 심정... 꼬소함 미쳤음ㅠㅜ 라떼 유목민들 제발 이거 한 번만 먹어봐,, 홈카페 6년 차인데 진심 억울해서 잠 안 옴,,,ㅠ 네스프레소 캡슐에 대충 이 우유만 섞으면 걍 청담동 카페 압살함... 그동안 밖에서 사 마신 라떼 값 다 환불받고 싶은 심정... 꼬소함 미쳤음ㅠㅜ 라떼 유목민들 제발 이거 한 번만 먹어봐,, 홈카페 6년 차인데 진심 억울해서 잠 안 옴,,,ㅠ 네스프레소 캡슐에 대충 이 우유만 섞으면 걍 청담동 카페 압살함... 그동안 밖에서 사 마신 라떼 값 다 환불받고 싶은 심정... 꼬소함 미쳤음ㅠㅜ 라떼 유목민들 제발 이거 한 번만 먹어봐,, [광고] 꼬소함의 미쳤으니까 아래 쓱 둘러보고가,,, https://link.coupang.com/a/flMKbpbrPg https://link.coupang.com/a/flMKbpbrPg [광고] 꼬소함의 미쳤으니까 아래 쓱 둘러보고가,,, https://link.coupang.com/a/flMKbpbrPg https://link.coupang.com/a/flMKbpbrPg",
+        "title": "소화가 잘되는 편안한 우유, 190ml, 12개 - 우유 | 쿠팡",
+        "url": "https://www.threads.net/@it_goodgiraffe/post/Daun8dUE7Vz"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 소화가 잘되는 편안한 우유, 190ml, 12개 - 우유 | 쿠팡 — 홈카페 6년 차인데 진심 억울해서 잠 안 옴,,,ㅠ 네스프레소 캡슐에 대충 이 우유만 섞으면 걍 청담동 카페 압살함... 그동안 밖에서 사 마신 라떼 값 다 환불받고 싶은 심정... 꼬소함 미쳤음ㅠㅜ 라떼 유목민들 ",
+      "total_score": 2.42,
+      "virality_score": 4.67
+    },
+    {
+      "category": "general",
+      "duplicate_key": "코스트코가서 이거 보이면 무조건 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 코스트코가서 이거 보이면 무조건 ㄷㄷ",
+      "is_product_idea": true,
+      "item": {
+        "author": "tkasiddl_99",
+        "fetched_at": "2026-07-13T13:39:56+00:00",
+        "id": "threads:6947b4fd6ae92f51:purchase:0:bc4e152984ac",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/731697895_2188142118645020_4789002988443588040_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743910095_18110401858847831_1556182523636553119_n.webp"
+        ],
+        "metrics": {
+          "likes": 15.0,
+          "replies": 1.0,
+          "reposts": 1.0,
+          "views": 4400.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T09:42:47+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9474794876?itemId=28204399160&vendorItemId=95158542992",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 15.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 4400.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@tkasiddl_99/post/Daunr7GCfPY",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:6e0b9f5c1bcc7f5c",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/731697895_2188142118645020_4789002988443588040_n.jpg",
+          "product_name": "와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에…",
+          "product_tags": [],
+          "provenance": {
+            "author": "tkasiddl_99",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@tkasiddl_99/post/DauntEtCZSa",
+            "reply_post_id": "3940261345236718746",
+            "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Daunr7GCfPY",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 15.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 4400.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9474794876?itemId=28204399160&vendorItemId=95158542992",
+              "id": "threads_purchase:6e0b9f5c1bcc7f5c",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "tkasiddl_99",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@tkasiddl_99/post/DauntEtCZSa",
+                "public_only": true,
+                "reply_post_id": "3940261345236718746",
+                "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Daunr7GCfPY",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fkHdNMxtts",
+              "raw_value": "https://link.coupang.com/a/fkHdNMxtts",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9474794876?itemId=28204399160&vendorItemId=95158542992",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9474794876?itemId=28204399160&vendorItemId=95158542992"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9474794876?itemId=28204399160&vendorItemId=95158542992",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Daunr7GCfPY"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHdNMxtts https://link.coupang.com/a/fkHdNMxtts https://link.coupang.com/a/fkHdNMxtts [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkHdNMxtts https://link.coupang.com/a/fkHdNMxtts https://link.coupang.com/a/fkHdNMxtts",
+        "title": "와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에…",
+        "url": "https://www.threads.net/@tkasiddl_99/post/Daunr7GCfPY"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에… — 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 식감에 꾸덕초코맛이 미쳤음 와 코스트코가서 이거 보이면 무조건 사 ㄷㄷ 오독오독 ",
+      "total_score": 2.43,
+      "virality_score": 4.75
+    },
+    {
+      "category": "general",
+      "duplicate_key": "사이보그 북유럽폭격기 축구선수 홀란드 스티커 50장 세트 캐리어 빅스티커 쿠팡 홀란드 진짜 좋아하는데 이거볼때마다",
+      "is_product_idea": true,
+      "item": {
+        "author": "nostalsokei",
+        "fetched_at": "2026-07-13T13:39:55+00:00",
+        "id": "threads:74a1c9f6eeae66b0:purchase:0:9f391d64eabe",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743294487_26967680099577409_1491931245661866973_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/744316809_17948414709217854_1097592426142710884_n.webp"
+        ],
+        "metrics": {
+          "likes": 10.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 5600.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T09:32:54+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9255125432?itemId=27378011725",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 10.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5600.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@nostalsokei/post/DaumjdPk5oB",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:ab6941f80cee4eac",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743294487_26967680099577409_1491931245661866973_n.jpg",
+          "product_name": "사이보그 북유럽폭격기 축구선수 홀란드 스티커 50장 세트 - 캐리어/빅스티커 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "nostalsokei",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@nostalsokei/post/DaumvukE6PN",
+            "reply_post_id": "3940257129575982029",
+            "root_post_url": "https://www.threads.net/@nostalsokei/post/DaumjdPk5oB",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 10.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5600.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9255125432?itemId=27378011725",
+              "id": "threads_purchase:ab6941f80cee4eac",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "nostalsokei",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@nostalsokei/post/DaumvukE6PN",
+                "public_only": true,
+                "reply_post_id": "3940257129575982029",
+                "root_post_url": "https://www.threads.net/@nostalsokei/post/DaumjdPk5oB",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flMePLFAwm",
+              "raw_value": "https://link.coupang.com/a/flMePLFAwm",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9255125432?itemId=27378011725",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9255125432?itemId=27378011725"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9255125432?itemId=27378011725",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DaumjdPk5oB"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 홀란드 스티커로 도전해볼사람? https://link.coupang.com/a/flMePLFAwm 홀란드 스티커로 도전해볼사람? https://link.coupang.com/a/flMePLFAwm",
+        "title": "사이보그 북유럽폭격기 축구선수 홀란드 스티커 50장 세트 - 캐리어/빅스티커 | 쿠팡",
+        "url": "https://www.threads.net/@nostalsokei/post/DaumjdPk5oB"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 사이보그 북유럽폭격기 축구선수 홀란드 스티커 50장 세트 - 캐리어/빅스티커 | 쿠팡 — 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 천잰가봐 나 홀란드 진짜 좋아하는데 이거볼때마다 개웃김 진짜 ㅋㅋㅋ",
+      "total_score": 2.45,
+      "virality_score": 4.84
+    },
+    {
+      "category": "general",
+      "duplicate_key": "다이소 갔다가 어떤 사람이 이거 개씩 담길래 괜히 나도 하나 집어옴 기대 했는데 손목에",
+      "is_product_idea": true,
+      "item": {
+        "author": "health60s",
+        "fetched_at": "2026-07-13T13:39:57+00:00",
+        "id": "threads:a4db5542f82a560e:purchase:0:182ae7d1c645",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/744918739_18142702540511629_8131401764012731833_n.webp",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/744535405_18142702549511629_8927652218268508547_n.webp",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743811942_18142702558511629_936449884184266797_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 227.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T09:21:57+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/8551852916?itemId=25813239379",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 227.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@health60s/post/DaulTPnAd6W",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:085513328ce14198",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/744918739_18142702540511629_8131401764012731833_n.webp",
+          "product_name": "와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이…",
+          "product_tags": [],
+          "provenance": {
+            "author": "health60s",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@health60s/post/DaulTEgAVPk",
+            "reply_post_id": "3940250762218656740",
+            "root_post_url": "https://www.threads.net/@health60s/post/DaulTPnAd6W",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 227.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/8551852916?itemId=25813239379",
+              "id": "threads_purchase:085513328ce14198",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "health60s",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@health60s/post/DaulTEgAVPk",
+                "public_only": true,
+                "reply_post_id": "3940250762218656740",
+                "root_post_url": "https://www.threads.net/@health60s/post/DaulTPnAd6W",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flLjPlBTpZ",
+              "raw_value": "https://link.coupang.com/a/flLjPlBTpZ",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/8551852916?itemId=25813239379",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/8551852916?itemId=25813239379"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/8551852916?itemId=25813239379",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DaulTPnAd6W"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이 오래가서 왜 다들 하나씩 들고 다니는지 알겠더라ㅋㅋ 와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이 오래가서 왜 다들 하나씩 들고 다니는지 알겠더라ㅋㅋ 와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이 오래가서 왜 다들 하나씩 들고 다니는지 알겠더라ㅋㅋ 와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이 오래가서 왜 다들 하나씩 들고 다니는지 알겠더라ㅋㅋ [광고]은은한 비누향 나서 너무좋아 https://link.coupang.com/a/flLjPlBTpZ https://link.coupang.com/a/flLjPlBTpZ [광고]은은한 비누향 나서 너무좋아 https://link.coupang.com/a/flLjPlBTpZ https://link.coupang.com/a/flLjPlBTpZ",
+        "title": "와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이…",
+        "url": "https://www.threads.net/@health60s/post/DaulTPnAd6W"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이… — 와;; 다이소 갔다가 어떤 사람이 이거 몇 개씩 담길래 괜히 나도 하나 집어옴;; 별 기대 안 했는데 손목에 한 번 슥 바르니까 은은하게 향이 오래가서 왜 다들 하나씩 들고 다니는지 알겠더라ㅋㅋ 와;; 다이소 갔다가",
+      "total_score": 2.17,
+      "virality_score": 3.28
+    },
+    {
+      "category": "general",
+      "duplicate_key": "이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고 근데",
+      "is_product_idea": true,
+      "item": {
+        "author": "item_market.k",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:212016298deaae97:purchase:0:3e3380d34a7d",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744489348_1552864786089169_4116866628793447652_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/746199010_18043024793612563_2094743125023464169_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 6.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T08:25:20+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/8642851216?itemId=25083686334",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 6.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@item_market.k/post/Daue0kAEe7K",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:c8c509eaf9592503",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744489348_1552864786089169_4116866628793447652_n.jpg",
+          "product_name": "이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나…",
+          "product_tags": [],
+          "provenance": {
+            "author": "item_market.k",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@item_market.k/post/Daue2cpkY-v",
+            "reply_post_id": "3940222407005015983",
+            "root_post_url": "https://www.threads.net/@item_market.k/post/Daue0kAEe7K",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 6.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/8642851216?itemId=25083686334",
+              "id": "threads_purchase:c8c509eaf9592503",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "item_market.k",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@item_market.k/post/Daue2cpkY-v",
+                "public_only": true,
+                "reply_post_id": "3940222407005015983",
+                "root_post_url": "https://www.threads.net/@item_market.k/post/Daue0kAEe7K",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fiyz3TvbRk",
+              "raw_value": "https://link.coupang.com/a/fiyz3TvbRk",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/8642851216?itemId=25083686334",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/8642851216?itemId=25083686334"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/8642851216?itemId=25083686334",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Daue0kAEe7K"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 쿠팡파트너스 활동으로 수수료를 제공받습니다 지금 이게 중요한게 아니라고ㅋㅋㅋ https://link.coupang.com/a/fiyz3TvbRk https://link.coupang.com/a/fiyz3TvbRk 쿠팡파트너스 활동으로 수수료를 제공받습니다 지금 이게 중요한게 아니라고ㅋㅋㅋ https://link.coupang.com/a/fiyz3TvbRk https://link.coupang.com/a/fiyz3TvbRk",
+        "title": "이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나…",
+        "url": "https://www.threads.net/@item_market.k/post/Daue0kAEe7K"
+      },
+      "market_score": 2.6,
+      "matched_terms": [
+        "자동"
+      ],
+      "novelty_score": 3.15,
+      "reason": "novelty terms: 자동; evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나… — 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로 찾아내더라고. 근데 이게 무슨 의미가 있을까🤣🤣 이거 하나 비추니까 전부 다보임ㅋㅋ 자동차 전문가들은 이걸 보고 찌그러진 곳을 바로",
+      "total_score": 2.39,
+      "virality_score": 2.33
+    },
+    {
+      "category": "general",
+      "duplicate_key": "미르스틴 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 미르스틴 여기",
+      "is_product_idea": true,
+      "item": {
+        "author": "tkasiddl_99",
+        "fetched_at": "2026-07-13T13:39:56+00:00",
+        "id": "threads:cdae5c1cf79299d2:purchase:0:b87d73986259",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746855083_1058536573265641_3878254069896639773_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743467626_18110401279847831_7289692493014123089_n.jpg"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 1.0,
+          "views": 1000.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T08:00:27+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9448388643?itemId=28106081620&vendorItemId=95062120647",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 1000.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@tkasiddl_99/post/Daub-Zxj1mK",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:de4c43d7e1a7ce63",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746855083_1058536573265641_3878254069896639773_n.jpg",
+          "product_name": "와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나…",
+          "product_tags": [],
+          "provenance": {
+            "author": "tkasiddl_99",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@tkasiddl_99/post/Daub_eeDyS4",
+            "reply_post_id": "3940209833295160504",
+            "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Daub-Zxj1mK",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 1.0,
+            "views": 1000.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9448388643?itemId=28106081620&vendorItemId=95062120647",
+              "id": "threads_purchase:de4c43d7e1a7ce63",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "tkasiddl_99",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@tkasiddl_99/post/Daub_eeDyS4",
+                "public_only": true,
+                "reply_post_id": "3940209833295160504",
+                "root_post_url": "https://www.threads.net/@tkasiddl_99/post/Daub-Zxj1mK",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fkG3zjmYAC",
+              "raw_value": "https://link.coupang.com/a/fkG3zjmYAC",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9448388643?itemId=28106081620&vendorItemId=95062120647",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9448388643?itemId=28106081620&vendorItemId=95062120647"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9448388643?itemId=28106081620&vendorItemId=95062120647",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Daub-Zxj1mK"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkG3zjmYAC https://link.coupang.com/a/fkG3zjmYAC https://link.coupang.com/a/fkG3zjmYAC [광고] 📌이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. https://link.coupang.com/a/fkG3zjmYAC https://link.coupang.com/a/fkG3zjmYAC https://link.coupang.com/a/fkG3zjmYAC",
+        "title": "와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나…",
+        "url": "https://www.threads.net/@tkasiddl_99/post/Daub-Zxj1mK"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나… — 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴 ;; 여기 덕질하는 캐릭터나 최애캐릭터 넣어서 책상앞에 두면 능률 떡상한다에 손목을 걸지 와 미르스틴",
+      "total_score": 2.29,
+      "virality_score": 3.98
+    },
+    {
+      "category": "general",
+      "duplicate_key": "대박 이거 만든 사람 진짜 천재 아니냐 ㅋㅋㅋ 마음대로 구부려서 거치대도 만들고 노트북 모니터에",
+      "is_product_idea": true,
+      "item": {
+        "author": "it_goodgiraffe",
+        "fetched_at": "2026-07-13T13:39:55+00:00",
+        "id": "threads:2977b50fe2f1b108:purchase:0:5182ae755cff",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746002324_2126217491574959_747992081604224026_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745961453_17939033874293537_204309561705384018_n.webp"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 617.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-13T02:13:36+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9555870159?itemId=28513795165&vendorItemId=95475040676",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 617.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@it_goodgiraffe/post/Dat0R-lk5IQ",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:be08667e7ee22eed",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746002324_2126217491574959_747992081604224026_n.jpg",
+          "product_name": "와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린…",
+          "product_tags": [],
+          "provenance": {
+            "author": "it_goodgiraffe",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@it_goodgiraffe/post/Dat0Rxfk_cK",
+            "reply_post_id": "3940035168811874058",
+            "root_post_url": "https://www.threads.net/@it_goodgiraffe/post/Dat0R-lk5IQ",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 617.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9555870159?itemId=28513795165&vendorItemId=95475040676",
+              "id": "threads_purchase:be08667e7ee22eed",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "it_goodgiraffe",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@it_goodgiraffe/post/Dat0Rxfk_cK",
+                "public_only": true,
+                "reply_post_id": "3940035168811874058",
+                "root_post_url": "https://www.threads.net/@it_goodgiraffe/post/Dat0R-lk5IQ",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/flgyiHQTkG",
+              "raw_value": "https://link.coupang.com/a/flgyiHQTkG",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9555870159?itemId=28513795165&vendorItemId=95475040676",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9555870159?itemId=28513795165&vendorItemId=95475040676"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9555870159?itemId=28513795165&vendorItemId=95475040676",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dat0R-lk5IQ"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린 뚝딱임!! 착착 접어서 주머니에 쏙 넣고 다니면 끝이네ㄷㄷ 와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린 뚝딱임!! 착착 접어서 주머니에 쏙 넣고 다니면 끝이네ㄷㄷ 와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린 뚝딱임!! 착착 접어서 주머니에 쏙 넣고 다니면 끝이네ㄷㄷ 와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린 뚝딱임!! 착착 접어서 주머니에 쏙 넣고 다니면 끝이네ㄷㄷ [광고]진짜 똑똑하다.. 와.. 무조건 가방에 하나씩 쟁겨두자.. 🥺 https://link.coupang.com/a/flgyiHQTkG https://link.coupang.com/a/flgyiHQTkG [광고]진짜 똑똑하다.. 와.. 무조건 가방에 하나씩 쟁겨두자.. 🥺 https://link.coupang.com/a/flgyiHQTkG https://link.coupang.com/a/flgyiHQTkG",
+        "title": "와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린…",
+        "url": "https://www.threads.net/@it_goodgiraffe/post/Dat0R-lk5IQ"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린… — 와 대박;; 이거 만든 사람 진짜 천재 아니냐?ㅋㅋㅋ 내 마음대로 구부려서 폰 거치대도 만들고, 노트북 모니터에 슥 걸치면 바로 듀얼 스크린 뚝딱임!! 착착 접어서 주머니에 쏙 넣고 다니면 끝이네ㄷㄷ 와 대박;; 이",
+      "total_score": 2.25,
+      "virality_score": 3.76
+    },
+    {
+      "category": "general",
+      "duplicate_key": "한국인 전용 의자인가 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ 이건 진짜",
+      "is_product_idea": true,
+      "item": {
+        "author": "item_market.k",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:3380a25d31545e3b:purchase:0:21af4832f8a6",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/742930920_2894620867565543_377630531906164359_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/741693698_18042941735612563_157024058389950856_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 2.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T13:17:42+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9087067481?itemId=26700753305",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 2.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@item_market.k/post/DasbfIQH7Cm",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:5356ef65c2c0b705",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/742930920_2894620867565543_377630531906164359_n.jpg",
+          "product_name": "한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가…",
+          "product_tags": [],
+          "provenance": {
+            "author": "item_market.k",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@item_market.k/post/Dasbe6fH3cX",
+            "reply_post_id": "3939644645681624855",
+            "root_post_url": "https://www.threads.net/@item_market.k/post/DasbfIQH7Cm",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 2.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9087067481?itemId=26700753305",
+              "id": "threads_purchase:5356ef65c2c0b705",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "item_market.k",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@item_market.k/post/Dasbe6fH3cX",
+                "public_only": true,
+                "reply_post_id": "3939644645681624855",
+                "root_post_url": "https://www.threads.net/@item_market.k/post/DasbfIQH7Cm",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fknf20EdR6",
+              "raw_value": "https://link.coupang.com/a/fknf20EdR6",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9087067481?itemId=26700753305",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9087067481?itemId=26700753305"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9087067481?itemId=26700753305",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DasbfIQH7Cm"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 쿠팡파트너스 활동으로 수수료를 제공받습니다 이거 완전 한국인취향 저격인데ㅋㅋ https://link.coupang.com/a/fknf20EdR6 https://link.coupang.com/a/fknf20EdR6 쿠팡파트너스 활동으로 수수료를 제공받습니다 이거 완전 한국인취향 저격인데ㅋㅋ https://link.coupang.com/a/fknf20EdR6 https://link.coupang.com/a/fknf20EdR6",
+        "title": "한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가…",
+        "url": "https://www.threads.net/@item_market.k/post/DasbfIQH7Cm"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가… — 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 이건 진짜 너무 갖고 싶다. 한국인 전용 의자인가...? 나도 의자에 앉으면 나도모르게 결국 양반다리 하고 있던데 ㅋㅋ😂 ",
+      "total_score": 1.99,
+      "virality_score": 2.28
+    },
+    {
+      "category": "general",
+      "duplicate_key": "이거 진짜 위험하다 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다 하나만",
+      "is_product_idea": true,
+      "item": {
+        "author": "pogeun__shop",
+        "fetched_at": "2026-07-13T13:39:57+00:00",
+        "id": "threads:eeee465834905c15:purchase:0:39db5a2bea29",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744141841_1774631333952601_2373917625394059287_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743425388_18109155262947019_2574673825810580777_n.webp"
+        ],
+        "metrics": {
+          "likes": 3.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 571.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T10:01:13+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/7892855348?itemId=21829148797",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 3.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 571.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@pogeun__shop/post/DasFAEEj0R-",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:4754289be7307cd3",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/744141841_1774631333952601_2373917625394059287_n.jpg",
+          "product_name": "이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지…",
+          "product_tags": [],
+          "provenance": {
+            "author": "pogeun__shop",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@pogeun__shop/post/DasFArVD_5i",
+            "reply_post_id": "3939545810799165026",
+            "root_post_url": "https://www.threads.net/@pogeun__shop/post/DasFAEEj0R-",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 3.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 571.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/7892855348?itemId=21829148797",
+              "id": "threads_purchase:4754289be7307cd3",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "pogeun__shop",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@pogeun__shop/post/DasFArVD_5i",
+                "public_only": true,
+                "reply_post_id": "3939545810799165026",
+                "root_post_url": "https://www.threads.net/@pogeun__shop/post/DasFAEEj0R-",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fj9ctCqB8S",
+              "raw_value": "https://link.coupang.com/a/fj9ctCqB8S",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/7892855348?itemId=21829148797",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/7892855348?itemId=21829148797"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/7892855348?itemId=21829148797",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DasFAEEj0R-"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ [광고] 아슈크림콘 꼬다리는 언제나 옳아!! https://link.coupang.com/a/fj9ctCqB8S https://link.coupang.com/a/fj9ctCqB8S [광고] 아슈크림콘 꼬다리는 언제나 옳아!! https://link.coupang.com/a/fj9ctCqB8S https://link.coupang.com/a/fj9ctCqB8S",
+        "title": "이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지…",
+        "url": "https://www.threads.net/@pogeun__shop/post/DasFAEEj0R-"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지… — 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니 봉지만 남아있음ㅋㅋ 이거 진짜 위험하다. 하나만 먹어야지 했는데 정신 차려보니",
+      "total_score": 2.26,
+      "virality_score": 3.77
+    },
+    {
+      "category": "general",
+      "duplicate_key": "스트레스 쌓인 사람들 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다 스트레스 쌓인 사람들 이거",
+      "is_product_idea": true,
+      "item": {
+        "author": "pogeun__shop",
+        "fetched_at": "2026-07-13T13:39:57+00:00",
+        "id": "threads:0958eab732611890:purchase:0:23d85c750e91",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743812574_1198118425792415_2150618074064938716_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743830950_18109139785947019_3810248918154155850_n.webp"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 513.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T07:37:00+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9568583717?itemId=28558278188",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 513.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@pogeun__shop/post/Dar0fx7jxTh",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:43bfe7edeb8b7ed0",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743812574_1198118425792415_2150618074064938716_n.jpg",
+          "product_name": "스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는…",
+          "product_tags": [],
+          "provenance": {
+            "author": "pogeun__shop",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@pogeun__shop/post/Dar0gbYDyw0",
+            "reply_post_id": "3939473225902140468",
+            "root_post_url": "https://www.threads.net/@pogeun__shop/post/Dar0fx7jxTh",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 513.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9568583717?itemId=28558278188",
+              "id": "threads_purchase:43bfe7edeb8b7ed0",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "pogeun__shop",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@pogeun__shop/post/Dar0gbYDyw0",
+                "public_only": true,
+                "reply_post_id": "3939473225902140468",
+                "root_post_url": "https://www.threads.net/@pogeun__shop/post/Dar0fx7jxTh",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjYUXziE1c",
+              "raw_value": "https://link.coupang.com/a/fjYUXziE1c",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9568583717?itemId=28558278188",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9568583717?itemId=28558278188"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9568583717?itemId=28558278188",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dar0fx7jxTh"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. [광고] 여드름 버젼도 있다...ㅋㅋㅋ https://link.coupang.com/a/fjYUXziE1c https://link.coupang.com/a/fjYUXziE1c [광고] 여드름 버젼도 있다...ㅋㅋㅋ https://link.coupang.com/a/fjYUXziE1c https://link.coupang.com/a/fjYUXziE1c",
+        "title": "스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는…",
+        "url": "https://www.threads.net/@pogeun__shop/post/Dar0fx7jxTh"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는… — 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는다. 스트레스 쌓인 사람들... 이거 한번 보면 끝남ㅋㅋ 손이 멈추질 않는",
+      "total_score": 2.23,
+      "virality_score": 3.65
+    },
+    {
+      "category": "general",
+      "duplicate_key": "이거 원래 이렇게 먹어야하는거였어 이거 원래 이렇게 먹어야하는거였어 이거 원래 이렇게 먹어야하는거였어 이거 원래",
+      "is_product_idea": true,
+      "item": {
+        "author": "health60s",
+        "fetched_at": "2026-07-13T13:39:58+00:00",
+        "id": "threads:f54a3dfdda1dc6fc:purchase:0:b82b94e13ba8",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/733684762_1035850819376469_860927053938226725_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/743926379_18142289815511629_7692581740195202925_n.webp",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/742668709_18142289824511629_841356102194326759_n.webp"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 249.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T06:38:10+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/1288944257?itemId=1044820",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 249.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@health60s/post/Dartw1HAZRH",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:0fce7f8c6a9a3ee5",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/733684762_1035850819376469_860927053938226725_n.jpg",
+          "product_name": "이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어???",
+          "product_tags": [],
+          "provenance": {
+            "author": "health60s",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@health60s/post/Dartwo7gbVd",
+            "reply_post_id": "3939443553641543005",
+            "root_post_url": "https://www.threads.net/@health60s/post/Dartw1HAZRH",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 249.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/1288944257?itemId=1044820",
+              "id": "threads_purchase:0fce7f8c6a9a3ee5",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "health60s",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@health60s/post/Dartwo7gbVd",
+                "public_only": true,
+                "reply_post_id": "3939443553641543005",
+                "root_post_url": "https://www.threads.net/@health60s/post/Dartw1HAZRH",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjUHPTioX6",
+              "raw_value": "https://link.coupang.com/a/fjUHPTioX6",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/1288944257?itemId=1044820",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/1288944257?itemId=1044820"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/1288944257?itemId=1044820",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "Dartw1HAZRH"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? [광고] 또나만 몰랐지... https://link.coupang.com/a/fjUHPTioX6 https://link.coupang.com/a/fjUHPTioX6 [광고] 또나만 몰랐지... https://link.coupang.com/a/fjUHPTioX6 https://link.coupang.com/a/fjUHPTioX6",
+        "title": "이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어???",
+        "url": "https://www.threads.net/@health60s/post/Dartw1HAZRH"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? — 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? 이거 원래 이렇게 먹어야하는거였어??? [광고] 또나만 몰랐지... https://link.cou",
+      "total_score": 2.19,
+      "virality_score": 3.37
+    },
+    {
+      "category": "general",
+      "duplicate_key": "룰루랄라 접이식 폴딩깔대기 주방기타소품 쿠팡 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이",
+      "is_product_idea": true,
+      "item": {
+        "author": "homlit_pick",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:83f7b9e17d20e029:purchase:1:b08b685e69cf",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746131413_27637497845860393_2314330110719647481_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745811450_18153546667444595_8920684654710970599_n.webp"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 5.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T05:57:30+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/9597708801?itemId=28651462563&vendorItemId=90952984540",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:c9698517e892f4c1",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746131413_27637497845860393_2314330110719647481_n.jpg",
+          "product_name": "룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "homlit_pick",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@homlit_pick/post/Darpo3gkwFx",
+            "reply_post_id": "3939425427353960817",
+            "root_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/9597708801?itemId=28651462563&vendorItemId=90952984540",
+              "id": "threads_purchase:c9698517e892f4c1",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "homlit_pick",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@homlit_pick/post/Darpo3gkwFx",
+                "public_only": true,
+                "reply_post_id": "3939425427353960817",
+                "root_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjRyPIVNQW",
+              "raw_value": "https://link.coupang.com/a/fjRyPIVNQW",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/9597708801?itemId=28651462563&vendorItemId=90952984540",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/9597708801?itemId=28651462563&vendorItemId=90952984540"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/9597708801?itemId=28651462563&vendorItemId=90952984540",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DarpHAokzdS"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 🍉 엄마표 수제 아이스바 만드는 방법 1. 작게 썬 과일 취향껏 채워 넣기. 2. 팩 입구에 실리콘 깔때기를 꽂고 음료 붓기 3. 밀봉하기 4. 얼리기 5. 맛있게 먹기 방법이랄 것도 없는 방법이었슴다!!😅😅 👇준비물은 아래에서 준비👇 아이스바 지퍼백 : https://link.coupang.com/a/fjRxEFuBhs 접이식 깔때기 : https://link.coupang.com/a/fjRyPIVNQW 맛있게 드세용🍧🍨🍦 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\" 🍉 엄마표 수제 아이스바 만드는 방법 1. 작게 썬 과일 취향껏 채워 넣기. 2. 팩 입구에 실리콘 깔때기를 꽂고 음료 붓기 3. 밀봉하기 4. 얼리기 5. 맛있게 먹기 방법이랄 것도 없는 방법이었슴다!!😅😅 👇준비물은 아래에서 준비👇 아이스바 지퍼백 : https://link.coupang.com/a/fjRxEFuBhs 접이식 깔때기 : https://link.coupang.com/a/fjRyPIVNQW 맛있게 드세용🍧🍨🍦 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"",
+        "title": "룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡",
+        "url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡 — 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 ",
+      "total_score": 2.05,
+      "virality_score": 2.63
+    },
+    {
+      "category": "general",
+      "duplicate_key": "룰루랄라 접이식 폴딩깔대기 주방기타소품 쿠팡 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이",
+      "is_product_idea": true,
+      "item": {
+        "author": "homlit_pick",
+        "fetched_at": "2026-07-13T13:39:54+00:00",
+        "id": "threads:83f7b9e17d20e029:purchase:0:e8e098a24e5f",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746131413_27637497845860393_2314330110719647481_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745811450_18153546667444595_8920684654710970599_n.webp"
+        ],
+        "metrics": {
+          "likes": 1.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 5.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T05:57:30+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/8736664866?vendorItemId=92384780040",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:090ec497330727da",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/746131413_27637497845860393_2314330110719647481_n.jpg",
+          "product_name": "룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "homlit_pick",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@homlit_pick/post/Darpo3gkwFx",
+            "reply_post_id": "3939425427353960817",
+            "root_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 1.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 5.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/8736664866?vendorItemId=92384780040",
+              "id": "threads_purchase:090ec497330727da",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "homlit_pick",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@homlit_pick/post/Darpo3gkwFx",
+                "public_only": true,
+                "reply_post_id": "3939425427353960817",
+                "root_post_url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjRxEFuBhs",
+              "raw_value": "https://link.coupang.com/a/fjRxEFuBhs",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/8736664866?vendorItemId=92384780040",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/8736664866?vendorItemId=92384780040"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/8736664866?vendorItemId=92384780040",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DarpHAokzdS"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 🍉 엄마표 수제 아이스바 만드는 방법 1. 작게 썬 과일 취향껏 채워 넣기. 2. 팩 입구에 실리콘 깔때기를 꽂고 음료 붓기 3. 밀봉하기 4. 얼리기 5. 맛있게 먹기 방법이랄 것도 없는 방법이었슴다!!😅😅 👇준비물은 아래에서 준비👇 아이스바 지퍼백 : https://link.coupang.com/a/fjRxEFuBhs 접이식 깔때기 : https://link.coupang.com/a/fjRyPIVNQW 맛있게 드세용🍧🍨🍦 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\" 🍉 엄마표 수제 아이스바 만드는 방법 1. 작게 썬 과일 취향껏 채워 넣기. 2. 팩 입구에 실리콘 깔때기를 꽂고 음료 붓기 3. 밀봉하기 4. 얼리기 5. 맛있게 먹기 방법이랄 것도 없는 방법이었슴다!!😅😅 👇준비물은 아래에서 준비👇 아이스바 지퍼백 : https://link.coupang.com/a/fjRxEFuBhs 접이식 깔때기 : https://link.coupang.com/a/fjRyPIVNQW 맛있게 드세용🍧🍨🍦 \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\"",
+        "title": "룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡",
+        "url": "https://www.threads.net/@homlit_pick/post/DarpHAokzdS"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 룰루랄라 접이식 폴딩깔대기 - 주방기타소품 | 쿠팡 — 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 어디서 샀냐고 좌표 내놓으라고 난리임🍧 하원길에 이거 챙겨가면 그날 우리 애가 바로 인싸 젬민이 등극함🌿 놀이터 엄마들이 대체 ",
+      "total_score": 2.05,
+      "virality_score": 2.63
+    },
+    {
+      "category": "general",
+      "duplicate_key": "만찢남 안경 발매트 공주님 왕자 선물 집사 러그 현관 패브릭발매트 주방매트 쿠팡 친구가 자기집에도",
+      "is_product_idea": true,
+      "item": {
+        "author": "iguan_a9305",
+        "fetched_at": "2026-07-13T13:39:56+00:00",
+        "id": "threads:9b2b6d4b712cd768:purchase:0:36065024249f",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743825414_1013658091590676_2665934975713228831_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/745522441_18060514538573428_4165938767666359175_n.jpg"
+        ],
+        "metrics": {
+          "likes": 0.0,
+          "replies": 1.0,
+          "reposts": 0.0,
+          "views": 487.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T05:51:11+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/7832581550",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 487.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@iguan_a9305/post/DaroYWXDav2",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:56d6584ca8f0b26e",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/743825414_1013658091590676_2665934975713228831_n.jpg",
+          "product_name": "만찢남 안경 발매트 공주님 왕자 선물 집사 러그 현관 - 패브릭발매트/주방매트 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "iguan_a9305",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@iguan_a9305/post/DaroZH9GBrS",
+            "reply_post_id": "3939419947454175954",
+            "root_post_url": "https://www.threads.net/@iguan_a9305/post/DaroYWXDav2",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 0.0,
+            "replies": 1.0,
+            "reposts": 0.0,
+            "views": 487.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/7832581550",
+              "id": "threads_purchase:56d6584ca8f0b26e",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "iguan_a9305",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@iguan_a9305/post/DaroZH9GBrS",
+                "public_only": true,
+                "reply_post_id": "3939419947454175954",
+                "root_post_url": "https://www.threads.net/@iguan_a9305/post/DaroYWXDav2",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjGIZego8q",
+              "raw_value": "https://link.coupang.com/a/fjGIZego8q",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/7832581550",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/7832581550"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/7832581550",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DaroYWXDav2"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 쿠팡 파트너스 활동으로 수수료를 제공받습니다. ------------------------------- 실물 비주얼이 더 대박이야ㅋㅋ 나랑 같이 공주님 대접받을 사람? 집사 영입 링크는 요기 아래에 둘게! 👇✨ 📌 자세히 보기: https://link.coupang.com/a/fjGIZego8q 📌 자세히 보기: https://link.coupang.com/a/fjGIZego8q 쿠팡 파트너스 활동으로 수수료를 제공받습니다. ------------------------------- 실물 비주얼이 더 대박이야ㅋㅋ 나랑 같이 공주님 대접받을 사람? 집사 영입 링크는 요기 아래에 둘게! 👇✨ 📌 자세히 보기: https://link.coupang.com/a/fjGIZego8q 📌 자세히 보기: https://link.coupang.com/a/fjGIZego8q",
+        "title": "만찢남 안경 발매트 공주님 왕자 선물 집사 러그 현관 - 패브릭발매트/주방매트 | 쿠팡",
+        "url": "https://www.threads.net/@iguan_a9305/post/DaroYWXDav2"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 만찢남 안경 발매트 공주님 왕자 선물 집사 러그 현관 - 패브릭발매트/주방매트 | 쿠팡 — 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기집에도 북부대공 최산있대서 먼소린가 했는데 어이없네ㅋㅋㅋ 친구가 자기",
+      "total_score": 2.23,
+      "virality_score": 3.62
+    },
+    {
+      "category": "general",
+      "duplicate_key": "공주님 집사 발매트 쓸모없는 웃긴 선물 러그 왕자님 공주 쓸데없는 킹받는 재밌는 주인님 매트",
+      "is_product_idea": true,
+      "item": {
+        "author": "moel.pick",
+        "fetched_at": "2026-07-13T13:39:53+00:00",
+        "id": "threads:de2ce035ba681ad5:purchase:0:33992fc9c11d",
+        "media_urls": [
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/745962329_1436418318535398_1008470317482665205_n.jpg",
+          "https://scontent-ssn1-1.cdninstagram.com/v/t51.82787-15/742501397_18096305810168301_2403091674291391093_n.webp"
+        ],
+        "metrics": {
+          "likes": 62.0,
+          "replies": 9.0,
+          "reposts": 1.0,
+          "views": 9400.0
+        },
+        "platform": "threads",
+        "published_at": "2026-07-12T04:50:57+00:00",
+        "raw": {
+          "affiliate": {
+            "present": true,
+            "same_author": true
+          },
+          "affiliate_disclosure": true,
+          "browser_safety_trace": {
+            "allowed_count": 8606,
+            "blocked_count": 1326,
+            "conformant": true,
+            "event_count": 9932,
+            "full_trace_in_collector_diagnostics": true,
+            "full_trace_ref": "collector.last_run_diagnostics.browser_safety_trace",
+            "unsafe_count": 0,
+            "unsafe_events": []
+          },
+          "browser_session_mode": "anonymous",
+          "browser_session_used": true,
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://coupang.com/vp/products/7806683392?itemId=21159396070",
+          "dedupe_key_namespace": "final_url",
+          "discovery_lane": "account",
+          "discovery_method": "public_web_live",
+          "engagement": {
+            "likes": 62.0,
+            "replies": 9.0,
+            "reposts": 1.0,
+            "views": 9400.0
+          },
+          "evidence_type": "public_social_purchase_evidence",
+          "fixture": false,
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "live_acquisition": true,
+          "original_post_url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O",
+          "physical_signal": true,
+          "primary_purchase_evidence_id": "threads_purchase:d67095a280916633",
+          "product_image": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/745962329_1436418318535398_1008470317482665205_n.jpg",
+          "product_name": "공주님 집사 발매트 쓸모없는 웃긴 선물 러그 [왕자님 공주 쓸데없는 킹받는 재밌는 주인님 매트 친구 이사 원룸 집들이 선물템] - 패브릭발매트/주방매트 | 쿠팡",
+          "product_tags": [],
+          "provenance": {
+            "author": "moel.pick",
+            "platform": "threads",
+            "post_url": "https://www.threads.net/@moel.pick/post/DarhfVok0qU",
+            "reply_post_id": "3939389588133595796",
+            "root_post_url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O",
+            "source": "threads_public_ssr"
+          },
+          "public_engagement": {
+            "likes": 62.0,
+            "replies": 9.0,
+            "reposts": 1.0,
+            "views": 9400.0
+          },
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {
+                "present": true,
+                "same_author": true
+              },
+              "dedupe_key": "final_url:https://coupang.com/vp/products/7806683392?itemId=21159396070",
+              "id": "threads_purchase:d67095a280916633",
+              "kind": "same_author_affiliate_followup",
+              "provenance": {
+                "author": "moel.pick",
+                "discovery_method": "public_web_live",
+                "platform": "threads",
+                "post_url": "https://www.threads.net/@moel.pick/post/DarhfVok0qU",
+                "public_only": true,
+                "reply_post_id": "3939389588133595796",
+                "root_post_url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O",
+                "source": "threads_public_ssr"
+              },
+              "raw_url": "https://link.coupang.com/a/fjMZjJ4Wnk",
+              "raw_value": "https://link.coupang.com/a/fjMZjJ4Wnk",
+              "resolver": {
+                "depth": 1,
+                "final_url": "https://coupang.com/vp/products/7806683392?itemId=21159396070",
+                "http_status": 403,
+                "status": "resolved_http_restricted"
+              }
+            }
+          ],
+          "purchase_resolver_status": "resolved_http_restricted",
+          "purchase_urls": [
+            "https://coupang.com/vp/products/7806683392?itemId=21159396070"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://coupang.com/vp/products/7806683392?itemId=21159396070",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true,
+          "threads_post_id": "DarhfjSE24O"
+        },
+        "source": "threads_social",
+        "tags": [
+          "threads",
+          "account",
+          "physical-product"
+        ],
+        "text": "음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\" 🔽🍀치니들 구매금액은 변동없음🍀🔽 ➡️https://link.coupang.com/a/fjMZjJ4Wnk \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\" 🔽🍀치니들 구매금액은 변동없음🍀🔽 ➡️ https://link.coupang.com/a/fjMZjJ4Wnk",
+        "title": "공주님 집사 발매트 쓸모없는 웃긴 선물 러그 [왕자님 공주 쓸데없는 킹받는 재밌는 주인님 매트 친구 이사 원룸 집들이 선물템] - 패브릭발매트/주방매트 | 쿠팡",
+        "url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O"
+      },
+      "market_score": 2.6,
+      "matched_terms": [],
+      "novelty_score": 2.0,
+      "reason": "evidence penalty: -0.3",
+      "summary_ko": "아이디어 상품 후보: 공주님 집사 발매트 쓸모없는 웃긴 선물 러그 [왕자님 공주 쓸데없는 킹받는 재밌는 주인님 매트 친구 이사 원룸 집들이 선물템] - 패브릭발매트/주방매트 | 쿠팡 — 음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가... \"이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공",
+      "total_score": 2.51,
+      "virality_score": 5.17
+    },
+    {
+      "category": "ai_software",
+      "duplicate_key": "mispher dictate rewrite translate an agent in single device",
+      "is_product_idea": true,
+      "item": {
+        "author": "Daniel Saad",
+        "fetched_at": "2026-07-13T13:40:50+00:00",
+        "id": "producthunt:0409e95f23fbcf56",
+        "media_urls": [],
+        "metrics": {},
+        "platform": "producthunt",
+        "published_at": "2026-07-09T02:36:54-07:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.producthunt.com,2005:Post/1191918",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:c89a4bf28bf1",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+              "id": "pe:c89a4bf28bf1",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "producthunt",
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+              "final_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+              "resolver": {
+                "final_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://producthunt.com/products/mispher-agentic-transcription-for-mac"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://producthunt.com/products/mispher-agentic-transcription-for-mac",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "producthunt",
+        "tags": [],
+        "text": "Dictate, rewrite, translate, and an agent in a single device",
+        "title": "Mispher",
+        "url": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac"
+      },
+      "market_score": 6.25,
+      "matched_terms": [
+        "agent",
+        "device"
+      ],
+      "novelty_score": 3.16,
+      "reason": "physical/product signals: device; software/product signals: agent",
+      "summary_ko": "AI/소프트웨어 후보: Mispher — Dictate, rewrite, translate, and an agent in a single device",
+      "total_score": 4.48,
+      "virality_score": 2.25
+    },
+    {
+      "category": "home",
+      "duplicate_key": "auriko trading desk llm calls",
+      "is_product_idea": true,
+      "item": {
+        "author": "Justin Jincaid",
+        "fetched_at": "2026-07-13T13:40:50+00:00",
+        "id": "producthunt:709699f0c656a697",
+        "media_urls": [],
+        "metrics": {},
+        "platform": "producthunt",
+        "published_at": "2026-07-05T16:00:28-07:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://producthunt.com/products/auriko",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.producthunt.com,2005:Post/1188837",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:19007d30b300",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://producthunt.com/products/auriko",
+              "id": "pe:19007d30b300",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "producthunt",
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/auriko",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://producthunt.com/products/auriko",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://producthunt.com/products/auriko",
+              "final_url": "https://producthunt.com/products/auriko",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/auriko",
+              "resolver": {
+                "final_url": "https://producthunt.com/products/auriko",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://producthunt.com/products/auriko"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://producthunt.com/products/auriko",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "producthunt",
+        "tags": [],
+        "text": "Trading desk for LLM calls",
+        "title": "Auriko",
+        "url": "https://www.producthunt.com/products/auriko"
+      },
+      "market_score": 5.85,
+      "matched_terms": [
+        "desk"
+      ],
+      "novelty_score": 3.16,
+      "reason": "physical/product signals: desk; penalty terms: trading",
+      "summary_ko": "홈/생활 후보: Auriko — Trading desk for LLM calls",
+      "total_score": 1.29,
+      "virality_score": 2.25
+    },
+    {
+      "category": "ai_software",
+      "duplicate_key": "second brain ai v2 ai memory connects dots across every tool",
+      "is_product_idea": true,
+      "item": {
+        "author": "fmerian",
+        "fetched_at": "2026-07-13T13:40:50+00:00",
+        "id": "producthunt:c782f5ffac288b60",
+        "media_urls": [],
+        "metrics": {},
+        "platform": "producthunt",
+        "published_at": "2026-06-24T20:43:33-07:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://producthunt.com/products/second-brain-cloudflare",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.producthunt.com,2005:Post/1180472",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:d204c2fc1d32",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://producthunt.com/products/second-brain-cloudflare",
+              "id": "pe:d204c2fc1d32",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "producthunt",
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/second-brain-cloudflare",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://producthunt.com/products/second-brain-cloudflare",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://producthunt.com/products/second-brain-cloudflare",
+              "final_url": "https://producthunt.com/products/second-brain-cloudflare",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/second-brain-cloudflare",
+              "resolver": {
+                "final_url": "https://producthunt.com/products/second-brain-cloudflare",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://producthunt.com/products/second-brain-cloudflare"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://producthunt.com/products/second-brain-cloudflare",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "producthunt",
+        "tags": [],
+        "text": "AI memory that connects the dots across every tool",
+        "title": "Second Brain for AI v2",
+        "url": "https://www.producthunt.com/products/second-brain-cloudflare"
+      },
+      "market_score": 6.25,
+      "matched_terms": [
+        "ai",
+        "tool"
+      ],
+      "novelty_score": 4.31,
+      "reason": "physical/product signals: tool; software/product signals: ai; novelty terms: ai",
+      "summary_ko": "AI/소프트웨어 후보: Second Brain for AI v2 — AI memory that connects the dots across every tool",
+      "total_score": 4.87,
+      "virality_score": 2.25
+    },
+    {
+      "category": "mobile",
+      "duplicate_key": "toyo exec assistant who lives in imessage calls phone",
+      "is_product_idea": true,
+      "item": {
+        "author": "fmerian",
+        "fetched_at": "2026-07-13T13:40:50+00:00",
+        "id": "producthunt:8e5ba323bd038e09",
+        "media_urls": [],
+        "metrics": {},
+        "platform": "producthunt",
+        "published_at": "2026-06-05T14:14:56-07:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://producthunt.com/products/toyo",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.producthunt.com,2005:Post/1164597",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:663554b6cd92",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://producthunt.com/products/toyo",
+              "id": "pe:663554b6cd92",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "producthunt",
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/toyo",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://producthunt.com/products/toyo",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://producthunt.com/products/toyo",
+              "final_url": "https://producthunt.com/products/toyo",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "producthunt_product_page"
+              },
+              "raw_url": "https://producthunt.com/products/toyo",
+              "resolver": {
+                "final_url": "https://producthunt.com/products/toyo",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://producthunt.com/products/toyo"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://producthunt.com/products/toyo",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "producthunt",
+        "tags": [],
+        "text": "Exec assistant who lives in iMessage and calls your phone",
+        "title": "Toyo",
+        "url": "https://www.producthunt.com/products/toyo"
+      },
+      "market_score": 6.75,
+      "matched_terms": [
+        "assistant",
+        "phone"
+      ],
+      "novelty_score": 3.16,
+      "reason": "physical/product signals: phone; software/product signals: assistant",
+      "summary_ko": "모바일/디바이스 후보: Toyo — Exec assistant who lives in iMessage and calls your phone",
+      "total_score": 4.72,
+      "virality_score": 2.25
+    },
+    {
+      "category": "home",
+      "duplicate_key": "zera mini true card sized cooling fan zera sonic true card sized 13m windspeed",
+      "is_product_idea": true,
+      "item": {
+        "author": null,
+        "fetched_at": "2026-07-13T13:40:54+00:00",
+        "id": "kickstarter:8f133ce54bb83cc1",
+        "media_urls": [
+          "https://i.kickstarter.com/assets/054/380/681/e8d4d289d15065cd4e7bfd89788f48d0_original.png"
+        ],
+        "metrics": {},
+        "platform": "kickstarter",
+        "published_at": "2026-06-05T02:42:08-04:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://kickstarter.com/projects/zerasonic/zera-mini",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.kickstarter.com,2009-05-04:Project/5341350",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:55d8c1ef5b8b",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://kickstarter.com/projects/zerasonic/zera-mini",
+              "id": "pe:55d8c1ef5b8b",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "kickstarter",
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://kickstarter.com/projects/zerasonic/zera-mini",
+              "final_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://kickstarter.com/projects/zerasonic/zera-mini"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://kickstarter.com/projects/zerasonic/zera-mini",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "kickstarter",
+        "tags": [],
+        "text": "TRUE Card-Sized | 13m/s Windspeed | 30,000RPM | 360° Rotatable | Intuitive Display | 69g Ultralight | 10 hrs+ Run Time | All-Day Cool",
+        "title": "ZERA mini - The True Card-Sized Cooling Fan by ZERA Sonic",
+        "url": "https://www.kickstarter.com/projects/zerasonic/zera-mini"
+      },
+      "market_score": 10.0,
+      "matched_terms": [
+        "card-sized",
+        "cool",
+        "cooling",
+        "display",
+        "fan",
+        "mini",
+        "true"
+      ],
+      "novelty_score": 6.63,
+      "reason": "physical/product signals: card-sized, cooling, display, fan, mini; novelty terms: card-sized, mini, true; pain/market terms: cool",
+      "summary_ko": "홈/생활 후보: ZERA mini - The True Card-Sized Cooling Fan by ZERA Sonic — TRUE Card-Sized | 13m/s Windspeed | 30,000RPM | 360° Rotatable | Intuitive Display | 69g Ultralight | 10 hrs+ Run Time |",
+      "total_score": 7.46,
+      "virality_score": 2.25
+    },
+    {
+      "category": "robotics",
+      "duplicate_key": "meet beni first all terrain camera robot mondo robotics 4k imaging smart auto following",
+      "is_product_idea": true,
+      "item": {
+        "author": null,
+        "fetched_at": "2026-07-13T13:40:54+00:00",
+        "id": "kickstarter:1901296021658bca",
+        "media_urls": [
+          "https://i.kickstarter.com/assets/054/369/924/7ac7cd8573ffc7be3b6db54a2aecda36_original.jpg"
+        ],
+        "metrics": {},
+        "platform": "kickstarter",
+        "published_at": "2026-05-06T04:26:55-04:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.kickstarter.com,2009-05-04:Project/5327806",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:3a4d0e0cb72f",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+              "id": "pe:3a4d0e0cb72f",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "kickstarter",
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+              "final_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "kickstarter",
+        "tags": [],
+        "text": "4K Imaging | Smart Auto-following | 17.9 mph Max Speed | 10-inch Max Obstacle Jumping | Auto-edited Highlights",
+        "title": "Meet Beni, Your First All-Terrain Camera Robot by Mondo Robotics",
+        "url": "https://www.kickstarter.com/projects/mondorobotics/beni-all-terrain-camera-robot"
+      },
+      "market_score": 8.0,
+      "matched_terms": [
+        "all-terrain",
+        "camera",
+        "first",
+        "robot",
+        "smart"
+      ],
+      "novelty_score": 6.63,
+      "reason": "physical/product signals: all-terrain, camera, robot, smart; novelty terms: all-terrain, first, smart",
+      "summary_ko": "로봇/하드웨어 후보: Meet Beni, Your First All-Terrain Camera Robot by Mondo Robotics — 4K Imaging | Smart Auto-following | 17.9 mph Max Speed | 10-inch Max Obstacle Jumping | Auto-edited Highlights",
+      "total_score": 6.5,
+      "virality_score": 2.25
+    },
+    {
+      "category": "home",
+      "duplicate_key": "dirty socks built work designed to stay clean dirty apparel debris blocking lace locking",
+      "is_product_idea": true,
+      "item": {
+        "author": null,
+        "fetched_at": "2026-07-13T13:40:54+00:00",
+        "id": "kickstarter:572b5af6b2aec00d",
+        "media_urls": [
+          "https://i.kickstarter.com/assets/054/385/207/e70c75023157d5b3c648da5aea266253_original.jpg"
+        ],
+        "metrics": {},
+        "platform": "kickstarter",
+        "published_at": "2026-04-29T20:12:41-04:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.kickstarter.com,2009-05-04:Project/5325194",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:cc819ac53f41",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+              "id": "pe:cc819ac53f41",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "kickstarter",
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+              "final_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "kickstarter",
+        "tags": [],
+        "text": "Debris-blocking, lace-locking performance socks engineered for construction, trades, and outdoor grind. Made in the USA.",
+        "title": "DIRTY SOCKS - Built for Work. Designed to Stay Clean. by Dirty Apparel",
+        "url": "https://www.kickstarter.com/projects/dirtyapparel/dirty-socks-built-for-work-designed-to-stay-clean"
+      },
+      "market_score": 7.65,
+      "matched_terms": [
+        "clean",
+        "socks",
+        "stay"
+      ],
+      "novelty_score": 3.18,
+      "reason": "physical/product signals: socks; pain/market terms: clean, stay",
+      "summary_ko": "홈/생활 후보: DIRTY SOCKS - Built for Work. Designed to Stay Clean. by Dirty Apparel — Debris-blocking, lace-locking performance socks engineered for construction, trades, and outdoor grind. Made in the USA.",
+      "total_score": 5.16,
+      "virality_score": 2.25
+    },
+    {
+      "category": "health",
+      "duplicate_key": "pnutroll ii pocket sized massage roller relaxation tool ccino mini factory of joy relieve",
+      "is_product_idea": true,
+      "item": {
+        "author": null,
+        "fetched_at": "2026-07-13T13:40:54+00:00",
+        "id": "kickstarter:1ad8cc2631a6de20",
+        "media_urls": [
+          "https://i.kickstarter.com/assets/054/202/837/08c793e010ba225711bf31b073208e76_original.jpg"
+        ],
+        "metrics": {},
+        "platform": "kickstarter",
+        "published_at": "2026-03-25T10:03:54-04:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.kickstarter.com,2009-05-04:Project/5308649",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:cd55db99ff7c",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+              "id": "pe:cd55db99ff7c",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "kickstarter",
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+              "final_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "kickstarter",
+        "tags": [],
+        "text": "A Mini Factory of Joy. Relieve Tension, Soothe Soreness, or Fidget Your Stress Away. New Textures. New Materials. More Joy.",
+        "title": "PnutRoll II | Pocket-Sized Massage Roller & Relaxation Tool by ccino",
+        "url": "https://www.kickstarter.com/projects/205144625/pnutroll-ii-pocket-sized-massage-roller-and-relaxation-tool"
+      },
+      "market_score": 8.85,
+      "matched_terms": [
+        "massage",
+        "mini",
+        "new",
+        "pocket",
+        "pocket-sized",
+        "stress",
+        "tool"
+      ],
+      "novelty_score": 6.63,
+      "reason": "physical/product signals: massage, mini, pocket, tool; novelty terms: mini, new, pocket-sized; pain/market terms: stress",
+      "summary_ko": "헬스케어 후보: PnutRoll II | Pocket-Sized Massage Roller & Relaxation Tool by ccino — A Mini Factory of Joy. Relieve Tension, Soothe Soreness, or Fidget Your Stress Away. New Textures. New Materials. More J",
+      "total_score": 6.91,
+      "virality_score": 2.25
+    },
+    {
+      "category": "home",
+      "duplicate_key": "vytasync smart air pillow deeper sleep neck relief vytasync adaptive air support eases neck",
+      "is_product_idea": true,
+      "item": {
+        "author": null,
+        "fetched_at": "2026-07-13T13:40:54+00:00",
+        "id": "kickstarter:5f035b91d86b2294",
+        "media_urls": [
+          "https://i.kickstarter.com/assets/054/370/594/a6821859c7fbeaeed6df745ff1821ec4_original.png"
+        ],
+        "metrics": {},
+        "platform": "kickstarter",
+        "published_at": "2026-03-14T00:19:37-04:00",
+        "raw": {
+          "conformant": true,
+          "dedupe_group_size": 1,
+          "dedupe_key": "final_url:https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+          "dedupe_key_namespace": "final_url",
+          "feed_id": "tag:www.kickstarter.com,2009-05-04:Project/5303147",
+          "is_cache_fallback": false,
+          "is_fixture": false,
+          "is_live_real_time": true,
+          "primary_purchase_evidence_id": "pe:4f4956e5b19a",
+          "product_tags": [],
+          "public_only": true,
+          "purchase_evidence": [
+            {
+              "affiliate": {},
+              "dedupe_key": "final_url:https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+              "id": "pe:4f4956e5b19a",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "platform": "kickstarter",
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+              "raw_value": null,
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            },
+            {
+              "dedupe_key": "final_url:https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+              "final_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+              "kind": "product_page",
+              "provenance": {
+                "canonical_product_page": true,
+                "public_only": true,
+                "source": "kickstarter_product_page"
+              },
+              "raw_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+              "resolver": {
+                "final_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+                "source": "item.url",
+                "status": "pre_resolved"
+              }
+            }
+          ],
+          "purchase_resolver_status": "pre_resolved",
+          "purchase_urls": [
+            "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow"
+          ],
+          "rejection_reasons": [],
+          "resolved_purchase_url": "https://kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow",
+          "schema_version": 2,
+          "source_evidence_policy_passed": true
+        },
+        "source": "kickstarter",
+        "tags": [],
+        "text": "Adaptive air support that eases neck and shoulder tension, helps you fall asleep faster, and makes every night more comfortable.",
+        "title": "Vytasync: Smart Air Pillow for Deeper Sleep & Neck Relief by Vytasync",
+        "url": "https://www.kickstarter.com/projects/185996931/vytasync-the-smart-air-pillow"
+      },
+      "market_score": 10.0,
+      "matched_terms": [
+        "adaptive",
+        "air",
+        "comfortable",
+        "faster",
+        "neck",
+        "pillow",
+        "relief",
+        "shoulder",
+        "sleep",
+        "smart"
+      ],
+      "novelty_score": 5.48,
+      "reason": "physical/product signals: air, pillow, smart; novelty terms: adaptive, smart; pain/market terms: comfortable, faster, neck, relief, shoulder, sleep",
+      "summary_ko": "홈/생활 후보: Vytasync: Smart Air Pillow for Deeper Sleep & Neck Relief by Vytasync — Adaptive air support that eases neck and shoulder tension, helps you fall asleep faster, and makes every night more comf",
+      "total_score": 7.07,
+      "virality_score": 2.25
+    }
+  ]
+}

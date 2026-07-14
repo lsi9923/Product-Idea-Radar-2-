@@ -1,0 +1,174 @@
+{
+  "sources": {
+    "producthunt": {
+      "enabled": true,
+      "feed_url": "https://www.producthunt.com/feed",
+      "fetch_multiplier": 2,
+      "max_age_days": 90
+    },
+    "kickstarter": {
+      "enabled": true,
+      "feed_url": "https://www.kickstarter.com/projects/feed.atom",
+      "fetch_multiplier": 5,
+      "max_age_days": 180,
+      "exclude_terms": [
+        "comic book",
+        "stl files",
+        "puzzle book",
+        "chapter books",
+        "special edition"
+      ]
+    },
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        "INEEEEDIT",
+        "DidntKnowIWantedThat",
+        "gadgets",
+        "ShutUpAndTakeMyMoney"
+      ],
+      "sort": "new",
+      "limit_per_subreddit": 12,
+      "fetch_multiplier": 3,
+      "max_age_days": 45
+    },
+    "threads": {
+      "enabled": true,
+      "platform": "threads",
+      "discovery_mode": "public_threads_live",
+      "social_threshold": 5.5,
+      "cache_fallback_hours": 24,
+      "fixture_mode": false,
+      "accounts": [
+        "moel.pick",
+        "smart.pick_",
+        "item_market.k",
+        "homlit_pick",
+        "it_goodgiraffe",
+        "1year3year",
+        "nostalsokei",
+        "tkasiddl_99",
+        "iguan_a9305",
+        "pogeun__shop",
+        "health60s"
+      ],
+      "korean_queries": [
+        "신박한 상품",
+        "쿠팡 추천템",
+        "생활용품 추천",
+        "주방템 추천",
+        "가성비템",
+        "아이디어 상품",
+        "선물 추천",
+        "반려동물 용품",
+        "캠핑용품",
+        "정리 수납템"
+      ],
+      "related_post_urls": [
+        "https://www.threads.com/@moel.pick/post/DarhfjSE24O"
+      ],
+      "live": {
+        "enabled": true,
+        "headless": true,
+        "search_url": "https://www.threads.com/search?q={query}",
+        "related_post_urls": [
+          "https://www.threads.com/@moel.pick/post/DarhfjSE24O"
+        ],
+        "timeout_ms": 15000,
+        "browser": {
+          "engine": "playwright",
+          "session_mode": "anonymous",
+          "service_workers": "block",
+          "trace_zero_write": true,
+          "disposable_profile_root": "%LOCALAPPDATA%/ProductIdeaRadar/threads_sessions"
+        }
+      },
+      "resolver": {
+        "timeout_seconds": 8,
+        "max_redirects": 5
+      },
+      "fetch_multiplier": 2,
+      "max_age_days": 30
+    },
+    "x_social": {
+      "enabled": true,
+      "platform": "x",
+      "discovery_mode": "hybrid",
+      "social_threshold": 5.5,
+      "cache_fallback_hours": 24,
+      "category_seeds": [
+        "gadgets",
+        "home",
+        "kitchen",
+        "beauty",
+        "pet",
+        "fitness"
+      ],
+      "official_api": {
+        "env": [
+          "X_BEARER_TOKEN"
+        ],
+        "endpoint": "https://api.x.com/2/tweets/search/recent"
+      },
+      "public_web": {
+        "provisional": true,
+        "freshness_unknown": true,
+        "search_url": "https://x.com/search?q={query}&f=live"
+      },
+      "fetch_multiplier": 2,
+      "max_age_days": 30
+    },
+    "instagram_social": {
+      "enabled": true,
+      "platform": "instagram",
+      "discovery_mode": "hybrid",
+      "social_threshold": 5.5,
+      "cache_fallback_hours": 24,
+      "category_seeds": [
+        "gadgets",
+        "home",
+        "kitchen",
+        "beauty",
+        "pet",
+        "fitness"
+      ],
+      "official_api": {
+        "env": [
+          "INSTAGRAM_ACCESS_TOKEN",
+          "INSTAGRAM_IG_USER_ID"
+        ],
+        "hashtag_search_endpoint": "https://graph.facebook.com/v19.0/ig_hashtag_search",
+        "recent_media_endpoint": "https://graph.facebook.com/v19.0/{hashtag_id}/recent_media"
+      },
+      "public_web": {
+        "provisional": true,
+        "freshness_unknown": true,
+        "tag_url": "https://www.instagram.com/explore/tags/{tag}/"
+      },
+      "fetch_multiplier": 2,
+      "max_age_days": 30
+    },
+    "x": {
+      "enabled": false,
+      "discovery_mode": "direct_legacy",
+      "handles": [
+        "ProductHunt",
+        "yankodesign",
+        "GadgetFlow",
+        "coolhunting"
+      ],
+      "limit_per_handle": 4,
+      "fetch_multiplier": 2,
+      "max_age_days": 30
+    },
+    "instagram": {
+      "enabled": false,
+      "discovery_mode": "direct_legacy",
+      "urls": [],
+      "max_age_days": 30
+    }
+  },
+  "scoring": {
+    "threshold": 4.7
+  }
+}

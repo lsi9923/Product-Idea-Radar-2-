@@ -1,0 +1,20 @@
+[project]
+name = "product-idea-radar"
+version = "0.1.0"
+description = "Public-source product idea crawler powered by insane-search"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "playwright>=1.45",
+]
+
+[project.scripts]
+idea-radar = "idea_radar.cli:main"
+idea-radar-gui = "idea_radar.gui:main"
+
+[tool.setuptools.data-files]
+"share/product_idea_radar/config" = ["config/sources.json"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"

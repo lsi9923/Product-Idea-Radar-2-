@@ -1,0 +1,53 @@
+{
+  "captured_source": {
+    "original_url": "https://www.threads.com/@moel.pick/post/DarhfjSE24O",
+    "normalized_public_url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O",
+    "capture_scope": "public Threads post and same-author public reply",
+    "captured_business_literals": true,
+    "media_note": "The media URL is a stable fixture-local semantic placeholder; all business literals, metrics, timestamps, post codes, affiliate text, purchase URL, resolved final URL, and dedupe key are captured public values."
+  },
+  "post": {
+    "original_url": "https://www.threads.com/@moel.pick/post/DarhfjSE24O",
+    "normalized_public_url": "https://www.threads.net/@moel.pick/post/DarhfjSE24O",
+    "code": "DarhfjSE24O",
+    "author": "moel.pick"
+  },
+  "root": {
+    "code": "DarhfjSE24O",
+    "author": "moel.pick",
+    "timestamp": "2026-07-12T04:50:57+00:00",
+    "epoch": 1783831857,
+    "caption": "음 이게 바로 성공의 맛인가... 음 이게 바로 성공의 맛인가...",
+    "product_name": "공주님 집사 발매트 쓸모없는 웃긴 선물 러그 [왕자님 공주 쓸데없는 킹받는 재밌는 주인님 매트 친구 이사 원룸 집들이 선물템] - 패브릭발매트/주방매트 | 쿠팡",
+    "metrics": {
+      "views": 9400,
+      "likes": 62,
+      "replies": 9,
+      "reposts": 1
+    },
+    "media_urls": [
+      "https://fixture.local/threads/moel-pick/DarhfjSE24O-product.jpg"
+    ]
+  },
+  "same_author_reply": {
+    "code": "DarhfVok0qU",
+    "url": "https://www.threads.net/@moel.pick/post/DarhfVok0qU",
+    "post_id": "3939389588133595796",
+    "author": "moel.pick",
+    "text": "구매 링크 https://link.coupang.com/a/fjMZjJ4Wnk\n이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+  },
+  "evidence": {
+    "kind": "same_author_affiliate_followup",
+    "raw_purchase_url": "https://link.coupang.com/a/fjMZjJ4Wnk",
+    "affiliate_disclosure_text": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
+    "same_author": true,
+    "public_only": true
+  },
+  "resolver_mapping": {
+    "https://link.coupang.com/a/fjMZjJ4Wnk": "https://coupang.com/vp/products/7806683392?itemId=21159396070"
+  },
+  "resolved_purchase": {
+    "final_url": "https://coupang.com/vp/products/7806683392?itemId=21159396070",
+    "dedupe_key": "final_url:https://coupang.com/vp/products/7806683392?itemId=21159396070"
+  }
+}
