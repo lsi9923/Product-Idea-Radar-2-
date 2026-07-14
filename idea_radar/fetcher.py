@@ -14,6 +14,12 @@ _BOUNDARY_RE = re.compile(
 _ENGINE_STATUS_RE = re.compile(
     r"\[engine\]\s+ok=(?P<ok>True|False)\s+verdict=(?P<verdict>\S+)\s+profile=(?P<profile>\S+)\s+attempts=(?P<attempts>\d+)"
 )
+_CREATE_NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0x08000000)
+
+
+def _subprocess_creation_flags(platform: str) -> int:
+    """Hide console subprocess windows on Windows without changing I/O capture."""
+    return _CREATE_NO_WINDOW if platform == "nt" else 0
 
 
 @dataclass(slots=True)
@@ -89,6 +95,7 @@ class InsaneSearchFetcher:
             encoding="utf-8",
             errors="replace",
             timeout=max(self.timeout + 30, 60),
+            creationflags=_subprocess_creation_flags(os.name),
         )
         content = self._extract_body(proc.stdout)
         ok, verdict, attempts = self._parse_status(proc.stderr)
