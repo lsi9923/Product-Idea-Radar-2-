@@ -65,6 +65,7 @@ SOURCE_LABELS = {
 DEFAULT_SOURCE_NAMES = ["threads_social", "producthunt", "kickstarter", "reddit", "x_social", "instagram_social", "x", "instagram"]
 DEFAULT_ON_SOURCES = {"threads_social", "producthunt", "kickstarter", "reddit", "x_social", "instagram_social"}
 GUI_DISPLAY_LIMIT = 30
+COLLECTION_INTERVAL_MS = 60_000
 EVIDENCE_RAW_FIELDS = [
     "physical_signal",
     "public_engagement",
@@ -328,12 +329,17 @@ class IdeaRadarApp(tk.Tk):
         self._ideas: list[ScoredIdea] = []
         self._displayed_ideas: list[ScoredIdea] = []
         self._crawl_thread: threading.Thread | None = None
+        self._crawl_options: CrawlOptions | None = None
+        self._repeat_after_id: str | None = None
         self._running = False
+        self._cycle_active = False
+        self._closing = False
         self._score_labels: list[tk.Label] = []
 
         self._apply_theme()
         self._build_ui()
         self._load_previous_results()
+        self.protocol("WM_DELETE_WINDOW", self._on_close)
 
     # ── Theme ───────────────────────────────────────────────────────
 
@@ -593,6 +599,8 @@ class IdeaRadarApp(tk.Tk):
         actions.pack(fill=tk.X, pady=10)
         self.start_btn = ttk.Button(actions, text="▶  수집 시작", style="Accent.TButton", command=self._start_crawl)
         self.start_btn.pack(fill=tk.X)
+        self.stop_btn = ttk.Button(actions, text="■  수집 중지", style="Ghost.TButton", command=self._stop_crawl, state=tk.DISABLED)
+        self.stop_btn.pack(fill=tk.X, pady=(6, 0))
         btn_row = tk.Frame(actions, bg=C["bg"])
         btn_row.pack(fill=tk.X, pady=(6, 0))
         ttk.Button(btn_row, text="결과 폴더", style="Ghost.TButton", command=self._open_output_dir).pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 3))
@@ -711,7 +719,7 @@ class IdeaRadarApp(tk.Tk):
         return [name for name, var in self.source_vars.items() if var.get()]
 
     def _start_crawl(self) -> None:
-        if self._running:
+        if self._running or self._cycle_active or self._closing:
             return
         sources = self._selected_sources()
         if not sources:
@@ -728,12 +736,7 @@ class IdeaRadarApp(tk.Tk):
             )
             return
 
-        self._running = True
-        self.start_btn.configure(state=tk.DISABLED, text="수집 중...")
-        self._append_log("─── 수집 시작 ───")
-        self._set_status("수집 중...", running=True)
-
-        options = CrawlOptions(
+        self._crawl_options = CrawlOptions(
             config=str(DEFAULT_CONFIG),
             sources=sources,
             limit_per_source=self.limit_var.get(),
@@ -743,6 +746,20 @@ class IdeaRadarApp(tk.Tk):
             db=str(DEFAULT_DB),
             insane_search_dir=insane_dir,
         )
+        self._running = True
+        self.start_btn.configure(state=tk.DISABLED, text="연속 수집 중...")
+        self.stop_btn.configure(state=tk.NORMAL)
+        self._append_log("─── 연속 수집 시작 ───")
+        self._begin_crawl_cycle()
+
+    def _begin_crawl_cycle(self) -> None:
+        self._repeat_after_id = None
+        if not self._running or self._cycle_active or self._closing:
+            return
+        assert self._crawl_options is not None
+        options = self._crawl_options
+        self._cycle_active = True
+        self._set_status("수집 중...", running=True)
 
         def worker() -> None:
             try:
@@ -754,23 +771,73 @@ class IdeaRadarApp(tk.Tk):
         self._crawl_thread = threading.Thread(target=worker, daemon=True)
         self._crawl_thread.start()
 
-    def _on_crawl_done(self, result: CrawlResult | None, error: Exception | None) -> None:
+    def _stop_crawl(self) -> None:
+        if not self._running and not self._cycle_active:
+            return
         self._running = False
+        if self._repeat_after_id is not None:
+            self.after_cancel(self._repeat_after_id)
+            self._repeat_after_id = None
+        self.stop_btn.configure(state=tk.DISABLED)
+        if self._cycle_active:
+            self._append_log("─── 중지 요청: 현재 수집 완료를 기다립니다 ───")
+            self._set_status("중지 중 — 현재 수집 완료 대기", running=True)
+        else:
+            self._finish_stopped()
+
+    def _finish_stopped(self) -> None:
+        self._crawl_options = None
         self.start_btn.configure(state=tk.NORMAL, text="▶  수집 시작")
+        self.stop_btn.configure(state=tk.DISABLED)
+        self._set_status("수집 중지됨")
+
+    def _schedule_next_cycle(self, *, failed: bool = False) -> None:
+        if not self._running or self._closing:
+            self._finish_stopped()
+            return
+        seconds = COLLECTION_INTERVAL_MS // 1_000
+        if failed:
+            self._set_status(f"오류 — {seconds}초 후 재시도", running=True)
+        else:
+            self._set_status(f"대기 중 — {seconds}초 후 다시 수집", running=True)
+        self._repeat_after_id = self.after(COLLECTION_INTERVAL_MS, self._begin_crawl_cycle)
+
+    def _on_crawl_done(self, result: CrawlResult | None, error: Exception | None) -> None:
+        self._cycle_active = False
+        self._crawl_thread = None
         if error is not None:
             self._append_log(f"[실패] {error}")
-            self._set_status("오류 발생")
-            messagebox.showerror("수집 실패", str(error))
+        else:
+            assert result is not None
+            self._ideas = result.ideas
+            self._populate_tree(result.ideas, top=GUI_DISPLAY_LIMIT)
+            self._append_log(f"─── 완료: 아이디어 {len(result.ideas)}건 ───")
+            if result.errors:
+                self._append_log(f"[오류] 소스: {', '.join(result.errors)}")
+
+        if self._closing:
+            self.destroy()
             return
+        if not self._running:
+            self._finish_stopped()
+            return
+        self._schedule_next_cycle(failed=error is not None)
 
-        assert result is not None
-        self._ideas = result.ideas
-        self._populate_tree(result.ideas, top=GUI_DISPLAY_LIMIT)
-        self._append_log(f"─── 완료: 아이디어 {len(result.ideas)}건 ───")
-        if result.errors:
-            self._append_log(f"[오류] 소스: {', '.join(result.errors)}")
-        self._set_status(f"완료 — {len(result.ideas)}건")
-
+    def _on_close(self) -> None:
+        if self._closing:
+            return
+        self._closing = True
+        self._running = False
+        if self._repeat_after_id is not None:
+            self.after_cancel(self._repeat_after_id)
+            self._repeat_after_id = None
+        self.start_btn.configure(state=tk.DISABLED)
+        self.stop_btn.configure(state=tk.DISABLED)
+        if self._cycle_active:
+            self._append_log("─── 앱 종료 요청: 현재 수집 완료를 기다립니다 ───")
+            self._set_status("종료 중 — 현재 수집 완료 대기", running=True)
+            return
+        self.destroy()
     def _populate_tree(self, ideas: list[ScoredIdea], *, top: int) -> None:
         self.tree.delete(*self.tree.get_children())
         self._displayed_ideas = _latest_verified_ideas(ideas, limit=min(top, GUI_DISPLAY_LIMIT))
