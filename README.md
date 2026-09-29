@@ -13,6 +13,38 @@
 - 요약 digest 생성, CSV / JSON 내보내기
 - 콘솔 없는 GUI 런처 제공 (`run_gui.pyw`)
 
+## 빠른 설치 (실행 파일, Windows)
+
+Python 설치 없이 바로 쓰고 싶다면 자동 설치 스크립트를 사용하세요.
+저장소에는 실행 파일(exe)을 포함하지 않으며, 스크립트가 **GitHub Releases에서 최신 exe를 자동으로 내려받아 설치**합니다.
+
+**방법 1 — 저장소를 받은 경우**
+
+`install.bat` 더블클릭. 또는 PowerShell에서:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File install.ps1
+```
+
+**방법 2 — 한 줄 설치 (클론 없이)**
+
+PowerShell에 아래를 붙여넣으면 설치 스크립트를 받아 바로 실행합니다.
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/lsi9923/Product-Idea-Radar-2-/main/install.ps1 | iex
+```
+
+설치 스크립트가 하는 일:
+
+1. 최신 릴리스에서 `ProductIdeaRadar.exe` 다운로드 (약 76MB)
+2. `%LOCALAPPDATA%\ProductIdeaRadar` 에 설치
+3. 바탕화면 / 시작 메뉴 바로가기 생성
+
+특정 버전을 받으려면 `-Tag v0.1.0` 처럼 지정할 수 있습니다.
+
+> 참고: exe는 저장소 히스토리를 무겁게 만들지 않기 위해 Git에 커밋하지 않고
+> [Releases](https://github.com/lsi9923/Product-Idea-Radar-2-/releases)에만 올립니다.
+
 ## 요구 사항
 
 - Python >= 3.11
@@ -20,7 +52,7 @@
   - `beautifulsoup4 >= 4.12`
   - `playwright >= 1.45`
 
-## 설치
+## 설치 (개발자 / 소스 실행)
 
 ```bash
 # 저장소 클론
